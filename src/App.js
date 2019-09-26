@@ -1,8 +1,12 @@
 import React from "react";
-import Card from "./components/Card";
+import StoreCard from "./components/StoreCard";
 
-function App() {
-  return <Card />;
-}
+import "./App.css";
+
+const App = () => (
+  <main className="app">
+    <StoreCard />
+  </main>
+);
 
 export default App;
